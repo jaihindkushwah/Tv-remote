@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <!-- <script type="text/javascript" src="jquery-1.4.2.min.js"></script> -->
+    <!-- <script src="jquery-3.6.1.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div id="led">
+        <div id="tv1">
+            
+            <div id="tv2">
+            </div>
+        </div>
+        <div id="hr"><span id="dot1"></span></div>
+        <div id="hr1">
+            <div> </div>
+        </div>
+        <div id="stand">
+            <div></div>
+        </div>
+    </div>
+    <div id="tv-system">
+        <div id="remote">
+            <div id="head1">
+                <div><span id="dot"></span></div>
+                <div >
+                    <button id="head-btn" class="button-large" onclick="show()" style="font-size:18px;border-radius: 30px;" ><span>&#10683;</span></button>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <button id="head-btn" class="mute" onclick="mute()" style="font-size:18px;"><s>S</s></button>
+                </div>
+                <div>
+                    <button class="button-large" onclick="">1</button>
+                    <button class="button-large" onclick="">2</button>
+                    <button class="button-large" onclick="">3</button>
+                </div>
+                <div>
+                    <button class="button-large" onclick="">4</button>
+                    <button class="button-large" onclick="">5</button>
+                    <button class="button-large" onclick="">6</button>
+                </div>
+                <div>
+                    <button class="button-large" onclick="">7</button>
+                    <button class="button-large" onclick="">8</button>
+                    <button class="button-large" onclick="">9</button>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="up">
+                    <button class="button-large" onclick="up()">&uarr;</button>
+                </div>
+                <div class="left">
+                    <button  class="button-large" onclick="backward()">&larr;</button>
+                </div>
+                <div class="ok">
+                    <button id="play-pause-button" onclick="playPause()">
+                    Ok
+                    <!-- <span class="play-btn">ok</span>
+                    <span class="pause-btn">ok</span> -->
+                </button>
+                </div>
+                <div class="right">
+                    <button class="button-large" onclick="forward()">&rarr;</button>
+                </div>
+                <div class="down">
+                    
+                    <button class="button-large" onclick="down()">&darr;</button>
+                </div>
+                </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

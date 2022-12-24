@@ -1,0 +1,56 @@
+video{
+    border-radius: 16px;
+    margin: -1px;
+    width:101%;
+}
+#tv1{
+    /* padding-top: 10%; */
+    width: 400px;
+    height: 225px;
+    /* border: 20px solid black; */
+    border-top: 30px solid black;
+    border-bottom: 20px solid black;
+    border-right: 15px solid black;
+    border-left: 15px solid black;
+    border-radius: 20px;
+    background-color: black;
+}
+#tv2{
+    background-color: rgb(241, 241, 145);
+    width: 397px;
+    height: 220px;
+    background-color: rgb(237, 216, 189);
+    border-radius: 15px;
+}
+body{
+    width: 100%;
+}
+#hr{
+    margin-left: 205px;
+    margin-top: -20px;
+    width: 70px;
+    height: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+#hr1{
+    margin-left: 215px;
+    margin-top: -2px;
+    width: 30px;
+    height: 50px;
+    background-color: black;
+}
+
+#stand{
+    margin-top: -2px;
+    margin-left: 135px;
+    /* margin-top: 50px; */
+    width: 180px;
+    
+    height: 25px;
+    border-radius: 100px;
+    background-color: black;
+}
+#led{
+    margin-left: 30%;
+}
